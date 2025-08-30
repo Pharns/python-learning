@@ -15,6 +15,10 @@ It includes coursework for **WGU’s D335 – Introduction to Programming in Pyt
 - Location: [`100 Days of Coding/`](https://github.com/Pharns/python-learning/tree/main/100%20Days%20of%20Coding)
 - Purpose: Daily coding exercises, challenges, and projects from the Udemy bootcamp.
 
+### Python Playground
+- Location: [`python-playground/`](./python-playground)
+- Purpose: A sandbox for experimenting with Python code, side projects, and quick prototypes outside of coursework.
+
 ---
 
 ## 🔧 How I Work
