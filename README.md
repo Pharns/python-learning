@@ -31,4 +31,7 @@ It includes coursework for **WGU’s D335 – Introduction to Programming in Pyt
 ## 🚀 Goals
 - Build strong foundations in Python.
 - Complete the 100 Days of Code Bootcamp.
-- Document my learning journey here.
+- Finish all assignments for WGU’s D335 course.
+- Document my learning journey here in this repository.
+- Use the **Python Playground** to explore new ideas, experiment with libraries, and create side-projects for fun.
+
