@@ -12,7 +12,7 @@ It includes coursework for **WGU’s D335 – Introduction to Programming in Pyt
 - Purpose: Assignments, practice scripts, and notes from WGU’s D335 course.
 
 ### 100 Days of Code – Complete Python Pro Bootcamp
-- Location: [`100 days of code/`](./100 days of code)
+- Location: [`100 days of code/`](https://github.com/Pharns/python-learning/tree/main/100%20Days%20of%20Coding)
 - Purpose: Daily coding exercises, challenges, and projects from the Udemy bootcamp.
 
 ---
