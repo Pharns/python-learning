@@ -1,4 +1,4 @@
-# 👨🏽‍💻100 Days of Code – Python Pro Bootcamp
+# 👨🏽‍💻100 Days of Coding – Python Pro Bootcamp
 
 This folder contains my progress through the **100 Days of Code** Python bootcamp.
 
@@ -12,3 +12,4 @@ This folder contains my progress through the **100 Days of Code** Python bootcam
 - ⬜ Day 02  
 - ⬜ Day 03  
 - …  
+ 
