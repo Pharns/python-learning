@@ -16,7 +16,7 @@ It includes coursework for **WGU’s D335 – Introduction to Programming in Pyt
 - Purpose: Daily coding exercises, challenges, and projects from the Udemy bootcamp.
 
 ### Python Playground
-- Location: [`python-playground/`](./python-playground)
+- Location: [`python-playground/`](https://github.com/Pharns/python-learning/tree/main/python%20playground)
 - Purpose: A sandbox for experimenting with Python code, side projects, and quick prototypes outside of coursework.
 
 ---
