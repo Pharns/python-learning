@@ -8,7 +8,7 @@ It includes coursework for **WGU’s D335 – Introduction to Programming in Pyt
 ## 📚 Contents
 
 ### D335 – Introduction to Programming in Python
-- Location: [`WGU D335/`]([./WGU D335](https://github.com/Pharns/python-learning/tree/main/100%20Days%20of%20Coding))
+- Location: [`WGU D335`](https://github.com/Pharns/python-learning/tree/main/100%20Days%20of%20Coding))
 - Purpose: Assignments, practice scripts, and notes from WGU’s D335 course.
 
 ### 100 Days of Code – Complete Python Pro Bootcamp
