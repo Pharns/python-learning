@@ -1,0 +1,20 @@
+# requirements-dev.txt
+# ---------------------------------
+# Developer tools for testing, linting, and formatting
+# Install with:
+#   pip install -r requirements-dev.txt
+#
+# Run tests with: pytest
+# Lint/format with: ruff / black
+
+# Testing
+pytest==8.3.2
+
+# Code formatting
+black==24.8.0
+
+# Linting & style checks
+ruff==0.6.3
+
+# Type checking (optional, helps catch errors early)
+mypy==1.11.1
