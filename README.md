@@ -35,3 +35,5 @@ It includes coursework for **WGU’s D335 – Introduction to Programming in Pyt
 - Document my learning journey here in this repository.
 - Use the **Python Playground** to explore new ideas, experiment with libraries, and create side-projects for fun.
 
+
+![CI](https://github.com/<your-username>/python-learning/actions/workflows/ci.yml/badge.svg)
