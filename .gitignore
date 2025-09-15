@@ -52,6 +52,7 @@ Desktop.ini
 __pycache__/
 .pytest_cache/
 
-
-#100 days of coding resources
+# ==============================
+# 100 days of coding resources
+# ==============================
 .resources/
