@@ -1,4 +1,20 @@
-# 🐍 Python Learning Projects
+# 🐍 Pharns’ Python Portfolio
+
+Live log for:
+- 🎓 WGU D335: Intro to Python
+- 💯 100 Days of Code
+- 🚀 Python Playground
+
+---
+
+## 📚 Contents
+- [WGU D335](./docs/python/wgu-d335/README.md)
+- [100 Days of Coding](./docs/python/100-days/day01/README.md)
+- [Python Playground](./docs/python/playground/README.md)
+
+---
+
+## 🐍 Python Learning Projects
 
 This repository is my central hub for learning and practicing Python.  
 It includes coursework for **WGU’s D335 – Introduction to Programming in Python** and the **100 Days of Code Bootcamp**.
@@ -8,15 +24,15 @@ It includes coursework for **WGU’s D335 – Introduction to Programming in Pyt
 ## 📚 Contents
 
 ### D335 – Introduction to Programming in Python
-- Location: [`WGU D335/`](https://github.com/Pharns/python-learning/tree/main/WGU%20D335)
+- Location: [WGU D335](./docs/python/wgu-d335/README.md)
 - Purpose: Assignments, practice scripts, and notes from WGU’s D335 course.
 
 ### 100 Days of Code – Complete Python Pro Bootcamp
-- Location: [`100 Days of Coding/`](https://github.com/Pharns/python-learning/tree/main/100%20Days%20of%20Coding)
+- Location: [100 Days of Coding](./docs/python/100-days/day01/README.md)
 - Purpose: Daily coding exercises, challenges, and projects from the Udemy bootcamp.
 
 ### Python Playground
-- Location: [`python-playground/`](https://github.com/Pharns/python-learning/tree/main/python%20playground)
+- Location: [Python Playground](./docs/python/playground/README.md)
 - Purpose: A sandbox for experimenting with Python code, side projects, and quick prototypes outside of coursework.
 
 ---
@@ -35,5 +51,17 @@ It includes coursework for **WGU’s D335 – Introduction to Programming in Pyt
 - Document my learning journey here in this repository.
 - Use the **Python Playground** to explore new ideas, experiment with libraries, and create side-projects for fun.
 
+## 🛠 Continuous Integration
 
-![CI](https://github.com/<your-username>/python-learning/actions/workflows/ci.yml/badge.svg)
+This repository uses **GitHub Actions** to automatically run code quality checks and tests.  
+The badge below shows the current status of the CI pipeline (✅ passing or ❌ failing):
+
+![CI](https://github.com/Pharns/python-learning/actions/workflows/ci.yml/badge.svg)
+
+**What’s included in the pipeline:**
+- **Black** → code formatting
+- **Ruff** → linting for Python best practices
+- **Mypy** → static type checking
+- **Pytest** → unit testing
+
+This ensures every commit is tested and validated before merging.
