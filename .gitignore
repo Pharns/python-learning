@@ -48,3 +48,6 @@ Desktop.ini
 # Working Copy (iPad)
 # ==============================
 .Revisions/
+.venv/
+__pycache__/
+.pytest_cache/
