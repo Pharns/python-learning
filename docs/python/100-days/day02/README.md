@@ -1,4 +1,4 @@
-# Day 01 — Untitled
+# Day 02 — Untitled
 
 ## 🐍 Concept
 (fill in)
