@@ -51,3 +51,7 @@ Desktop.ini
 .venv/
 __pycache__/
 .pytest_cache/
+
+
+#100 days of coding resources
+.resources/
