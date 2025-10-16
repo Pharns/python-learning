@@ -83,4 +83,10 @@ for number in range(nr_numbers):
 
 random.shuffle(password)
 final_password = "".join(password)
-print(final_password)
+print(f"Your password is {final_password}")
+
+# ## 2nd way
+# password = ""
+
+# for char in rage (1,nr_letters +1):
+#     password += rand.choice(letters)
