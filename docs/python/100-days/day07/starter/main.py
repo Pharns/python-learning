@@ -1,8 +1,112 @@
+import random
+
+stages = [
+    r"""
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
+""",
+    r"""
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+""",
+    r"""
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+""",
+    """
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========""",
+    """
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+""",
+    """
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+""",
+    """
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+""",
+]
+
 word_list = ["aardvark", "baboon", "camel"]
 
-# TODO-1 - Randomly choose a word from the word_list and assign it to a variable called chosen_word. Then print it.
+# Choose random word
+chosen_word = random.choice(word_list)
+print(chosen_word)
 
-# TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
+# Hint
+placeholder = ""
+word_length = len(chosen_word)
+for position in range(word_length):
+    placeholder += "_ "
+print(placeholder)
 
-# TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word. Print "Right" if it
-#  is, "Wrong" if it's not.
+# Counters
+game_over = False
+correct_letters = []
+lives = 6
+
+while not game_over:
+    guess = input("Guess a letter: ").lower()
+
+    display = ""
+
+    for letter in chosen_word:
+        if letter == guess:
+            display += letter
+            correct_letters.append(guess)
+        elif letter in correct_letters:
+            display += letter
+        else:
+            display += "_"
+
+    # Lives
+    print(display)
+    if guess not in correct_letters:
+        lives -= 1
+    print(stages[lives])
+
+    # Game Over
+    if "_" not in display:
+        game_over = True
+        print("You win.")
+    elif lives == 0:
+        game_over = True
+        print("You lose.")
